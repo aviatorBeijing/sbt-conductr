@@ -73,7 +73,7 @@ In the context of Play or Lagom you should enable the following plugins to trigg
 
 ## Command Overview
 
-The following `sbt-conductr` commands are available:
+The following `sbt-conductr` commands can be used in sbt script environment:
 
 Property                     | Description
 -----------------------------|------------
@@ -99,7 +99,7 @@ Each `sandbox` and `conduct` sub command has a help page particular for the sub 
 
 ## ConductR Plugin 
 
-With the ConductR plugin it is possible to execute the [conductr-cli](https://github.com/typesafehub/conductr-cli) commands within the sbt session. The [Command Overview](#command-overview) section lists down all available `sandbox` and `conduct` commands.
+With the ConductR plugin it is possible to execute the [conductr-cli](https://github.com/typesafehub/conductr-cli) commands within the sbt session. The [Command Overview](#command-overview) section lists down all available `sandbox` and `conduct` commands. Examples of invoking these commands are as following:
 
 ### Starting cluster
 
